@@ -78,6 +78,9 @@ p {
 }
 
 @media (max-width:375px) {
+    .main-center {
+    height: auto;
+    }
     .main {
         flex-wrap: wrap;
     }
@@ -92,5 +95,5 @@ p {
         border-bottom-left-radius: 8px;
         border-top-right-radius: 0;
     }
-    
+
 }
