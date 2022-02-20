@@ -17,7 +17,7 @@ h2 {
 p {
     color: hsla(0, 0%, 100%, 0.75);
     width: 82%;
-    margin-bottom: 88px;
+    margin-bottom: 64px;
 }
 
 .learn {
@@ -27,7 +27,7 @@ p {
     padding: 14px 32px;
     color: black;
     mix-blend-mode: lighten;
-    border: 3px solid hsla(0, 0%, 100%, 0.75);
+    border: 3px solid hsla(0, 0%, 94%, 0.75);
 }
 
 .learn:hover {
@@ -48,6 +48,7 @@ p {
 }
 
 .cars {
+    min-width: 280px;
     width: 345px;
     padding: 4rem 45px;
     max-height: 525px;
@@ -78,7 +79,6 @@ p {
         margin-bottom: 40px;
     }
     .sedans {
-        
         border-top-right-radius: 8px;
         border-bottom-left-radius: 0;
     }
@@ -86,4 +86,5 @@ p {
         border-bottom-left-radius: 8px;
         border-top-right-radius: 0;
     }
+    
 }
